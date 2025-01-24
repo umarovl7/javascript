@@ -8,15 +8,17 @@
    // document.body.style.backgroundColor = rndcol;
 // });
 const sneakers1 = {
-    firstName: "Puma",
-    lastName: "Reebok",
-    price: "$500",
-    color: "black"
-}
+    firstName: "New Balance",
+    lastName: "Converse",
+    price: 300, 
+    color: "brown"
+};
 
-const sneakers2 = {firstName: "Puma" , lastname: "Fashion"};
+const sneakers2 = { firstName: "Nike", lastName: "Jordan" }; 
 
 Object.assign(sneakers1, sneakers2);
 
-let text = Object.entries(sneakers1);
-document.getElementById("sirit").innerHTML = text;
+
+let text = Object.values(sneakers1); 
+
+document.getElementById("advent").innerHTML = text;
