@@ -22,12 +22,12 @@
 //let text = Object.values(sneakers1); 
 
 //document.getElementById("advent").innerHTML = text;
-/////////
+
 //function Person(first, last, age, hair) {
-  //  this.firstname = first;
-    //this.lastname = last;
-   // this.age = age;
-   // this.hair = hair;
+ // this.firstname = first;
+  // this.lastname = last;
+  // this.age = age;
+  // this.hair = hair;
 //}
 
 //Person.prototype.gender = "female";
@@ -38,17 +38,28 @@
   //"The age of my sister is " + sister.age;
 
 
-  function Meal(name, origin, century) {
-    this.name = name;
-    this.origin = origin;
-    this.century = century;
-}
+
+  //function Meal(name, origin, century) {
+   //this.name = name;
+   //this.origin = origin;
+   //this.century = century;
+//}
 
 
-Meal.prototype.ingredients = ["rice", "carrots", "onions", "water"];
+//Meal.prototype.ingredients = ["rice", "carrots", "onions", "water"];
 
-const meal = new Meal("Palov", "Uzbekistan", "10th");
+//const meal = new Meal("Palov", "Uzbekistan", "10th");
 
-document.getElementById("meal").innerHTML =
-   "The origin of the meal is " + meal.origin;
+//document.getElementById("meal").innerHTML =
+  //"The origin of the meal is " + meal.origin;
 
+   
+const person = {
+   firstName: "Ruslan",
+   lastName: "Abdujabborov",
+   age: 15,
+   gender: "male"
+};
+
+document.getElementById("JAVAscript").innerHTML =
+person.gender + "is" + person.age + "years old.";
