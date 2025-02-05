@@ -54,12 +54,12 @@
   //"The origin of the meal is " + meal.origin;
 
    
-const person = {
-   firstName: "Ruslan",
-   lastName: "Abdujabborov",
-   age: 15,
-   gender: "male"
-};
+   const car = {
+   Name: "Porsche",
+   model: "S Turbo 911",
+   year: 2024,
+   color: "black"
+ };
 
-document.getElementById("JAVAscript").innerHTML =
-person.gender + "is" + person.age + "years old.";
+ document.getElementById("demo").innerHTML =
+ car.Name + " is " + car.color + " car. ";
