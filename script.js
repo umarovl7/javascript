@@ -69,5 +69,13 @@
 //const message=alert('Hello World');
 //console.log(message);
 
-const age=confirm("are you above 18?");
-console.log(age);
+//const age=confirm("are you above 18?");
+//console.log(age);
+
+//const message=+prompt("son kiritng");
+//console.log(typeof(message));
+
+let a=prompt("birinchi son");
+let b=prompt("ikkinchi son");
+let c=a+b;
+console.log(c);
