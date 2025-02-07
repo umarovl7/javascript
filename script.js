@@ -66,5 +66,8 @@
 // car.Name + " is " + car.color + " car. ";
 
 
-const message=alert('Hello World');
-console.log(message);
+//const message=alert('Hello World');
+//console.log(message);
+
+const age=confirm("are you above 18?");
+console.log(age);
