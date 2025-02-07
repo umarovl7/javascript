@@ -53,13 +53,18 @@
 //document.getElementById("meal").innerHTML =
   //"The origin of the meal is " + meal.origin;
 
-   
-   const car = {
-   Name: "Porsche",
-   model: "S Turbo 911",
-   year: 2024,
-   color: "black"
- };
 
- document.getElementById("demo").innerHTML =
- car.Name + " is " + car.color + " car. ";
+
+  //   const car = {
+//   Name: "Porsche"
+  // model: "S Turbo 911",
+ //  year: 2024,
+ //  color: "black"
+// };
+
+// document.getElementById("demo").innerHTML =
+// car.Name + " is " + car.color + " car. ";
+
+
+const message=alert('Hello World');
+console.log(message);
