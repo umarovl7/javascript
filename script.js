@@ -111,5 +111,14 @@
 //const message=alert("Do not enter this website");
 //console.log(message);
 
-const age=confirm("are you a male?");
-console.log(age);
+//const age=confirm("are you a male?");
+//console.log(age);
+
+const university = {
+  name: "Leland Stanford Junior University",
+  founded: 1885,
+  type: "Private research university",
+  website: "	stanford.edu"
+};
+document.getElementById("demo").innerHTML =
+university.name + " is " + university.type + ".";
