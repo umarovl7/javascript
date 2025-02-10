@@ -101,9 +101,9 @@
 //alert("Bu ogohlantirish!");
 
 
-let m=prompt("son kirit");
-m=Number(m);
-let c=prompt("2-son kirit");
-c=Number(c);
-let x=m+c;
-console.log(x);
+let o=prompt("son kirit");
+o=Number(o);
+let p=prompt("2-son kirit");
+p=Number(p);
+let l=o-p;
+console.log(l);
