@@ -101,9 +101,12 @@
 //alert("Bu ogohlantirish!");
 
 
-let n=prompt("son kirit");
-n=Number(n);
-let s=prompt("2-son kirit");
-s=Number(s);
-let d=n/s;
-console.log(d);
+//let n=prompt("son kirit");
+//n=Number(n);
+//let s=prompt("2-son kirit");
+//s=Number(s);
+//let d=n/s;
+//console.log(d);
+
+const message=alert("Do not enter this website");
+console.log(message);
