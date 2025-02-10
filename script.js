@@ -91,9 +91,19 @@
 //}
 
 
-let isConfirmed = confirm("Siz haqiqatdan ham davom etishni xohlaysizmi?");
-if (isConfirmed) {
-  alert("Siz davom etishni tanladingiz.");
-} else {
-  alert("Siz bekor qildingiz.");
-}
+//let isConfirmed = confirm("Siz haqiqatdan ham davom etishni xohlaysizmi?");
+//if (isConfirmed) {
+  //alert("Siz davom etishni tanladingiz.");
+//} else {
+// alert("Siz bekor qildingiz.");
+//}
+
+//alert("Bu ogohlantirish!");
+
+
+let m=prompt("son kirit");
+m=Number(m);
+let c=prompt("2-son kirit");
+c=Number(c);
+let x=m+c;
+console.log(x);
