@@ -81,9 +81,19 @@
 //b=Number(b);
 //let c=a+b;
 //console.log(c);
-let userName = prompt("Ismingizni kiriting:");
-if (userName !== null) {
-  alert("Salom, " + userName + "!");
+
+
+//let userName = prompt("Ismingizni kiriting:");
+//if (userName !== null) {
+  //alert("Salom, " + userName + "!");
+//} else {
+ // alert("Ism kiritilmadi.");
+//}
+
+
+let isConfirmed = confirm("Siz haqiqatdan ham davom etishni xohlaysizmi?");
+if (isConfirmed) {
+  alert("Siz davom etishni tanladingiz.");
 } else {
-  alert("Ism kiritilmadi.");
+  alert("Siz bekor qildingiz.");
 }
