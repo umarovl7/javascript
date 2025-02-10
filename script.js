@@ -75,7 +75,15 @@
 //const message=+prompt("son kiritng");
 //console.log(typeof(message));
 
-let a=prompt("birinchi son");
-let b=prompt("ikkinchi son");
-let c=a+b;
-console.log(c);
+//let a=prompt("birinchi son");
+//a=Number(a);
+//let b=prompt("ikkinchi son");
+//b=Number(b);
+//let c=a+b;
+//console.log(c);
+let userName = prompt("Ismingizni kiriting:");
+if (userName !== null) {
+  alert("Salom, " + userName + "!");
+} else {
+  alert("Ism kiritilmadi.");
+}
