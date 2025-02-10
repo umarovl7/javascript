@@ -114,11 +114,20 @@
 //const age=confirm("are you a male?");
 //console.log(age);
 
-const university = {
-  name: "Leland Stanford Junior University",
-  founded: 1885,
-  type: "Private research university",
-  website: "	stanford.edu"
+//const university = {
+ // name: "Leland Stanford Junior University",
+  //founded: 1885,
+  //type: "Private research university",
+  //website: "	stanford.edu"
+//};
+//document.getElementById("demo").innerHTML =
+//university.name + " is " + university.type + ".";
+
+const game = {
+  name: "Call of duty: Modern Warfare",
+  developer: " Infinity Ward",
+  date: 2019,
+  type: "first-person shooter"
 };
 document.getElementById("demo").innerHTML =
-university.name + " is " + university.type + ".";
+game.name + " is " + game.type + " video game.";
