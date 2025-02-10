@@ -108,5 +108,8 @@
 //let d=n/s;
 //console.log(d);
 
-const message=alert("Do not enter this website");
-console.log(message);
+//const message=alert("Do not enter this website");
+//console.log(message);
+
+const age=confirm("are you a male?");
+console.log(age);
